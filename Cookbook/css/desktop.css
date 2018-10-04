@@ -25,7 +25,7 @@
 
 
 #menu {
-    height: 65px;
+    height: 45px;
     /*width: 100%;*/
     clear: none;
     background-color: black;
@@ -39,6 +39,7 @@
     width: 100%;
     clear: none;
     padding-bottom: 20px;
+    margin-bottom:15px;
 }
 
 
@@ -106,14 +107,15 @@
 }
 
 #breadcrumb {
-    height: 60px;
+    height: 50px;
     /*width: 100%;*/
     clear: none;
     background-color: white;
     border-bottom-width: 1px;
     border-bottom-color: gray;
     border-bottom-style: solid;
-    margin-bottom: 35px;
+    padding: 40px 0px 20px 0px;
+    /*margin-bottom: 35px;*/
     /*padding-top: 10px;*/
 }
 

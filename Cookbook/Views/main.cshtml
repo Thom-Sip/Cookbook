@@ -22,14 +22,22 @@
             @Html.Sitecore().Rendering("{9EFEDB64-1835-493F-AA01-06B4CB2A9CF7}")
         </div>
 
-        <div id="sidemenu">
-            @Html.Sitecore().Rendering(
-            "{2C2E4245-A734-465E-834C-527697D1A1DE}")
-        </div>
+        <div class="container">
 
-        <div id="contentarea">
-            <h1>@Html.Sitecore().Field("Title")</h1>
-            @Html.Sitecore().Field("Body")
+            <div id="breadcrumb">
+                @Html.Sitecore().Rendering("{1E801CB2-331D-40E0-A63A-78094CDEAEC5}")
+            </div>
+
+            <div id="sidemenu">
+                @Html.Sitecore().Rendering(
+                "{2C2E4245-A734-465E-834C-527697D1A1DE}")
+            </div>
+
+            <div id="contentarea">
+                <h1>@Html.Sitecore().Field("Title")</h1>
+                @Html.Sitecore().Field("Body")
+            </div>
+
         </div>
 
         <div id="footer">

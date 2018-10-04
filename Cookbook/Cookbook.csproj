@@ -115,6 +115,8 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Helpers\SiteHelper.cs" />
+    <Compile Include="Models\BreadcrumbItem.cs" />
+    <Compile Include="Models\BreadcrumbItemList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +131,7 @@
     <Content Include="Views\main.cshtml" />
     <Content Include="Views\Navigation\SideMenu.cshtml" />
     <Content Include="Views\Navigation\TopMenu.cshtml" />
+    <Content Include="Views\Navigation\Breadcrumb.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -139,7 +142,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
