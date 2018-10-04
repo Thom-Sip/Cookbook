@@ -1,0 +1,37 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+
+@model RenderingModel
+<div>
+    <ol class="sidemenu">
+        @if (Model.Item.Parent["Show in Menu"] == "1")
+        {
+            <li>
+                <a href="@Sitecore.Links.LinkManager.GetItemUrl(Model.Item.Parent)">
+                    @Model.Item.Parent.Fields["Title"].Value
+                </a>
+            </li>
+        }
+
+        @*@if (Model.Item["Show in Menu"] == "1")
+        {
+            <li>
+                <a href="@Sitecore.Links.LinkManager.GetItemUrl(Model.Item)">
+                    @Model.Item.Fields["Title"].Value
+                </a>
+            </li>
+        }*@
+
+        @foreach (var item in Model.Item.Parent.Children.ToArray())
+        {
+            if (@item["Show in Menu"] == "1")
+            {
+                <li>
+                    <a href="@Sitecore.Links.LinkManager.GetItemUrl(@item)">
+                        @item.Fields["Title"].Value
+                    </a>
+                </li>
+            }
+        }
+    </ol>
+</div>

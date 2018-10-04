@@ -1,0 +1,21 @@
+﻿<div>
+    <ol class="topmenu">
+        <li>
+            <a href="@Sitecore.Links.LinkManager.GetItemUrl(Cookbook.Helpers.SiteHelper.HomeItem())">
+                @Cookbook.Helpers.SiteHelper.HomeItem().Fields["Title"].Value
+            </a>
+        </li>
+
+        @foreach (var item in Cookbook.Helpers.SiteHelper.HomeItem().Children.ToArray())
+        {
+            if (item["Show in Menu"] == "1")
+            {
+                <li>
+                    <a href="@Sitecore.Links.LinkManager.GetItemUrl(@item)">
+                        @item.Fields["Title"].Value
+                    </a>
+                </li>
+            }
+        }
+    </ol>
+</div>
