@@ -1,6 +1,11 @@
 ﻿using Cookbook.Models;
+using Sitecore;
+using Sitecore.Collections;
 using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
+using Sitecore.Data.Managers;
+using Sitecore.Globalization;
+using Sitecore.Links;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +31,34 @@ namespace Cookbook.Controllers
             }
 
             return PartialView(slides);
+        }
+
+        public ActionResult LanguageSwitcher()
+        {
+            Dictionary<string, string> list = new Dictionary<string, string>();
+
+            LanguageCollection langColl = LanguageManager.GetLanguages(Context.Database);
+
+            foreach(var language in langColl)
+            {
+                string url = GetItemUrl(Context.Item, language);
+                list.Add(language.Title, url);
+            }
+
+            return View(list);
+        }
+
+        public string GetItemUrl(Item item, Language language)
+        {
+            string url = LinkManager.GetItemUrl(item, 
+                new UrlOptions
+                {
+                    LanguageEmbedding = LanguageEmbedding.Always,
+                    LanguageLocation = LanguageLocation.FilePath,
+                    Language = language
+                });
+
+            return url;
         }
     }
 }

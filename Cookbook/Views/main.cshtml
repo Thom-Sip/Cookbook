@@ -26,6 +26,8 @@
             <a href="/">
                 @Html.Sitecore().Field("Logo", Sitecore.Context.Database.GetItem("/sitecore/Content/Global/Configurations"))
             </a>
+
+            @Html.Sitecore().Placeholder("language-switcher")
         </div>
 
         <div id="menu">

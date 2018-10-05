@@ -36,6 +36,10 @@ namespace Cookbook.Helpers
         {
             string url = htmlString.ToString();
             var start = url.IndexOf('"', 0);
+
+            if (start == -1)
+                return "";
+
             var end = url.IndexOf('"', start + 1);
             var newurl = url.Substring(start, end - start);
             return url.Substring(start, end - start);

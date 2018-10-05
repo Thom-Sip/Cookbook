@@ -142,6 +142,7 @@
     <Content Include="Views\Content\ItemList.cshtml" />
     <Content Include="Views\async.cshtml" />
     <Content Include="Views\Content\ProductList.cshtml" />
+    <Content Include="Views\Navigation\LanguageSwitcher.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
