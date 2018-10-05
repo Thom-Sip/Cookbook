@@ -4,6 +4,8 @@
 @model RenderingModel
 <div>
     <ol class="sidemenu">
+
+        @*
         @if (Model.Item.Parent["Show in Menu"] == "1")
         {
             <li>
@@ -13,7 +15,7 @@
             </li>
         }
 
-        @*@if (Model.Item["Show in Menu"] == "1")
+        @if (Model.Item["Show in Menu"] == "1")
         {
             <li>
                 <a href="@Sitecore.Links.LinkManager.GetItemUrl(Model.Item)">
