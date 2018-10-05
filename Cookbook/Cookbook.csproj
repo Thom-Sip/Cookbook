@@ -114,6 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Commands\GetChildCount.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Helpers\SiteHelper.cs" />
     <Compile Include="Models\BreadcrumbItem.cs" />
@@ -128,6 +129,7 @@
     <Content Include="Views\web.config" />
     <Content Include="App_Config\ConnectionStrings.config" />
     <Content Include="libman.json" />
+    <Content Include="App_Config\Commands.config" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
