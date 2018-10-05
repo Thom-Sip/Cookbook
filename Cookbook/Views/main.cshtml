@@ -6,10 +6,21 @@
     <title> @Html.Sitecore().Field("Title", Sitecore.Context.Item, new { DisableWebEdit = true })</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link href="/css/desktop.css" rel="stylesheet" />
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+
+    @*Bootstrap CDN*@
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 <body>
+
+    @*Bootstrap CDN*@
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
     <div>
         <div id="header">
             <a href="/">
@@ -18,7 +29,6 @@
         </div>
 
         <div id="menu">
-            @*Top Menu*@
             @Html.Sitecore().Rendering("{9EFEDB64-1835-493F-AA01-06B4CB2A9CF7}")
         </div>
 
@@ -26,6 +36,10 @@
 
             <div id="breadcrumb">
                 @Html.Sitecore().Rendering("{1E801CB2-331D-40E0-A63A-78094CDEAEC5}")
+            </div>
+
+            <div>
+                @Html.Sitecore().Rendering("{CED7B8E2-42BD-4AF1-A694-4D4EC44ACC57}")
             </div>
 
             <div id="sidemenu">

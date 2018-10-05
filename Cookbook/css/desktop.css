@@ -13,6 +13,7 @@
     border-left-width: 1px;
     border-left-color: gray;
     border-left-style: dotted;
+    margin-top: 20px;
 }
 
 .container {
@@ -25,7 +26,7 @@
 
 
 #menu {
-    height: 45px;
+    height: 75px;
     /*width: 100%;*/
     clear: none;
     background-color: black;
@@ -70,7 +71,11 @@
 }
 
 
-
+#carouselContainer{
+    width:400px;
+    height:400px;
+    margin:20px;
+}
 
 #sidemenu {
     float: left;
@@ -85,6 +90,7 @@
     border-radius: 4px;
     list-style: outside none none;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
     .sidemenu > li {
@@ -95,9 +101,9 @@
 
 
 #header {
-    height: 40px;
-    padding-top: 15px;
-    padding-bottom: 50px !important;
+    height: 60px;
+    padding-top: 25px;
+    padding-bottom: 75px !important;
     clear: none;
     background-color: #7F0078;
     color: white;
@@ -107,7 +113,7 @@
 }
 
 #breadcrumb {
-    height: 50px;
+    height: 120px;
     /*width: 100%;*/
     clear: none;
     background-color: white;

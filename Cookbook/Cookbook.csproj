@@ -114,9 +114,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Helpers\SiteHelper.cs" />
     <Compile Include="Models\BreadcrumbItem.cs" />
     <Compile Include="Models\BreadcrumbItemList.cs" />
+    <Compile Include="Models\CarouselSlide.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -132,6 +134,7 @@
     <Content Include="Views\Navigation\SideMenu.cshtml" />
     <Content Include="Views\Navigation\TopMenu.cshtml" />
     <Content Include="Views\Navigation\Breadcrumb.cshtml" />
+    <Content Include="Views\Navigation\Carousel.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -141,7 +144,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
