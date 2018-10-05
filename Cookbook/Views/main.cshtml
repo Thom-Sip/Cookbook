@@ -35,21 +35,22 @@
         <div class="container">
 
             <div id="breadcrumb">
-                @Html.Sitecore().Rendering("{1E801CB2-331D-40E0-A63A-78094CDEAEC5}")
+                @Html.Sitecore().Placeholder("breadcrumb")
             </div>
 
             <div>
+                @*Carousel*@
                 @Html.Sitecore().Rendering("{CED7B8E2-42BD-4AF1-A694-4D4EC44ACC57}")
             </div>
 
             <div id="sidemenu">
-                @Html.Sitecore().Rendering(
-                "{2C2E4245-A734-465E-834C-527697D1A1DE}")
+                @Html.Sitecore().Placeholder("left-column")
             </div>
 
             <div id="contentarea">
-                <h1>@Html.Sitecore().Field("Title")</h1>
-                @Html.Sitecore().Field("Body")
+                <article>
+                    @Html.Sitecore().Placeholder("main-content")
+                </article>
             </div>
 
         </div>
