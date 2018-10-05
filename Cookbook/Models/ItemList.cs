@@ -19,9 +19,9 @@ namespace Cookbook.Models
         public override void Initialize(Rendering rendering)
         {
             int records = 0;
-            int.TryParse(rendering.Parameters["RecordsCount"], out records);
+            int.TryParse(rendering.Parameters["Records Count"], out records);
 
-            CssClass = rendering.Parameters["CssClass"];
+            CssClass = rendering.Parameters["Css Class"];
 
             string dataSource = rendering.DataSource;
             Item sourceItem = GetDateSource(dataSource);

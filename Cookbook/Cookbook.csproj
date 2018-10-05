@@ -140,6 +140,8 @@
     <Content Include="Views\Content\HighlightNews.cshtml" />
     <Content Include="Views\Content\HighlightBalls.cshtml" />
     <Content Include="Views\Content\ItemList.cshtml" />
+    <Content Include="Views\async.cshtml" />
+    <Content Include="Views\Content\ProductList.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
