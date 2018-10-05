@@ -116,6 +116,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Commands\GetChildCount.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
+    <Compile Include="Gutters\PublishGutter.cs" />
     <Compile Include="Helpers\SiteHelper.cs" />
     <Compile Include="Models\BreadcrumbItem.cs" />
     <Compile Include="Models\BreadcrumbItemList.cs" />
