@@ -136,6 +136,8 @@
     <Content Include="Views\Navigation\Breadcrumb.cshtml" />
     <Content Include="Views\Navigation\Carousel.cshtml" />
     <Content Include="Views\Content\TitleAndBody.cshtml" />
+    <Content Include="Views\Content\HighlightNews.cshtml" />
+    <Content Include="Views\Content\HighlightBalls.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
