@@ -1,6 +1,7 @@
 ﻿using Sitecore;
 using Sitecore.Configuration;
 using Sitecore.Data;
+using Sitecore.Data.Events;
 using Sitecore.Data.Items;
 using Sitecore.Events;
 using Sitecore.Publishing;
@@ -19,11 +20,16 @@ namespace Cookbook.Handlers
             if ((args != null))
             {
                 Item item = Event.ExtractParameter<Item>(args, 0);
+
+                //------ Casting to avoid index, Doesn't work, SaveArgs = null after casting
+                //ItemSavedEventArgs saveArgs = args as ItemSavedEventArgs;
+                //Item item = saveArgs.Item;
+
                 if (item != null && item.Database.Name == "master")
                 {
                     if (item["Auto Publish"] == "1")
                     {
-                        //using (new EditContext(item))
+                        //using (new EditContext(item)) ---- Why would you disable this upon save?
                         //{
                         //    item.Fields["Auto Publish"].Value = "0";
                         //}
