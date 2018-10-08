@@ -118,8 +118,10 @@
     <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Fields\DateTimeWithTimeZone.cs" />
     <Compile Include="Gutters\PublishGutter.cs" />
+    <Compile Include="Handlers\AuditTrailEventHandler.cs" />
     <Compile Include="Handlers\ItemPublishEventHandler.cs" />
     <Compile Include="Helpers\SiteHelper.cs" />
+    <Compile Include="Hooks\AuditTrailHook.cs" />
     <Compile Include="Models\BreadcrumbItem.cs" />
     <Compile Include="Models\BreadcrumbItemList.cs" />
     <Compile Include="Models\CarouselSlide.cs" />
@@ -139,6 +141,7 @@
     <Content Include="App_Config\Sitecore.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.CustomPageNotFound.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.AutoPublishEventHandlers.config" />
+    <Content Include="App_Config\Include\Cookbook\Cookbook.Hooks.config" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
