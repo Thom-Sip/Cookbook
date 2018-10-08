@@ -123,10 +123,12 @@
     <Compile Include="Models\CarouselSlide.cs" />
     <Compile Include="Models\ItemList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XAML\ProductListPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\desktop.css" />
     <Content Include="Global.asax" />
+    <Content Include="sitecore\shell\Applications\Cookbook\ProductList.xml" />
     <Content Include="Views\web.config" />
     <Content Include="App_Config\ConnectionStrings.config" />
     <Content Include="libman.json" />
