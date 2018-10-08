@@ -14,7 +14,7 @@ namespace Cookbook.Tasks
 
         public void Run()
         {
-            Log.Fatal("Running delete old version agent", this);
+            Log.Info("Running delete old version agent", this);
 
             Database database = Factory.GetDatabase(DatabaseName);
             Item item = database.GetItem(RootItem);
