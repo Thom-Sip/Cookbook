@@ -134,6 +134,7 @@
     <Content Include="App_Config\ConnectionStrings.config" />
     <Content Include="libman.json" />
     <Content Include="App_Config\Commands.config" />
+    <Content Include="App_Config\Sitecore.config" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
