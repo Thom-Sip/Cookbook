@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Sitecore.Data.Items;
+using Sitecore.Diagnostics;
 using Sitecore.Shell.Framework.Commands;
 using Sitecore.Web.UI.Sheer;
 
@@ -15,6 +16,10 @@ namespace Cookbook.Commands
             if(context.Items.Length == 1)
             {
                 Item currentItem = context.Items[0];
+
+                var msg = "Count children called";
+                Log.Fatal(msg, this);
+
                 SheerResponse.Alert($"Children count: {currentItem.Children.Count}");
             }
         }

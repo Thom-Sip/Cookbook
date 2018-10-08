@@ -130,6 +130,7 @@
     <Compile Include="Pipelines\PageNotFoundResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tasks\ResetLayoutDetailsJob.cs" />
+    <Compile Include="Tasks\VersionDeletionAgent.cs" />
     <Compile Include="XAML\ProductListPage.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -144,6 +145,7 @@
     <Content Include="App_Config\Include\Cookbook\Cookbook.CustomPageNotFound.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.AutoPublishEventHandlers.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.Hooks.config" />
+    <Content Include="App_Config\Include\Cookbook\Cookbook.Schedulers.config" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
