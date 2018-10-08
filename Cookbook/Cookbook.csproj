@@ -118,6 +118,7 @@
     <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Fields\DateTimeWithTimeZone.cs" />
     <Compile Include="Gutters\PublishGutter.cs" />
+    <Compile Include="Handlers\ItemPublishEventHandler.cs" />
     <Compile Include="Helpers\SiteHelper.cs" />
     <Compile Include="Models\BreadcrumbItem.cs" />
     <Compile Include="Models\BreadcrumbItemList.cs" />
@@ -137,6 +138,7 @@
     <Content Include="App_Config\Commands.config" />
     <Content Include="App_Config\Sitecore.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.CustomPageNotFound.config" />
+    <Content Include="App_Config\Include\Cookbook\Cookbook.AutoPublishEventHandlers.config" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
