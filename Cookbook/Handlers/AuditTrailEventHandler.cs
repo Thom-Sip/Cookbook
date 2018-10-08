@@ -45,7 +45,8 @@ namespace Cookbook.Handlers
             // Unauthorized exception
             // File.AppendAllText(@"D:\Data\Inetpub\Cookbook\CustomLogs", v + " | " +  item.DisplayName + Environment.NewLine);
 
-            SheerResponse.Alert($"{item.DisplayName} was {v}");
+            // --- This works for saving, but breaks publishing
+            // SheerResponse.Alert($"{item.DisplayName} was {v}");
 
             Console.WriteLine(v + " | " + item.DisplayName);
         }
