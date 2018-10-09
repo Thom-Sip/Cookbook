@@ -133,12 +133,16 @@
     <Compile Include="Tasks\ResetLayoutDetailsJob.cs" />
     <Compile Include="Tasks\ResetLayoutTask.cs" />
     <Compile Include="Tasks\VersionDeletionAgent.cs" />
+    <Compile Include="XAML\InsertTokenForm.cs" />
     <Compile Include="XAML\ProductListPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\desktop.css" />
     <Content Include="Global.asax" />
+    <Content Include="sitecore modules\Shell\InsertToken\InsertToken.xml" />
     <Content Include="sitecore\shell\Applications\Cookbook\ProductList.xml" />
+    <Content Include="sitecore\shell\Controls\Rich Text Editor\Editor.css" />
+    <Content Include="sitecore\shell\Override\CustomRTECommands.js" />
     <Content Include="Views\web.config" />
     <Content Include="App_Config\ConnectionStrings.config" />
     <Content Include="libman.json" />
@@ -149,6 +153,7 @@
     <Content Include="App_Config\Include\Cookbook\Cookbook.Hooks.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.Schedulers.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.RTEToken.config" />
+    <Content Include="App_Config\Include\Cookbook\Cookbook.RTETokenButton.config" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
