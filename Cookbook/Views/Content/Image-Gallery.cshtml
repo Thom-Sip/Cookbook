@@ -1,0 +1,28 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc
+@using Cookbook.Helpers
+@using Sitecore.Data.Items
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+
+    @model RenderingModel
+    @foreach (Item item in Model.Item.Children)
+    {
+        <div>
+            @Html.Sitecore().RenderResponsivePicture("Image", item,
+            false,
+            new List<Dimensions>{
+            new Dimensions(1200, 800, 0),
+            new Dimensions(600, 400, 0),
+            new Dimensions(300, 50, 0)
+            })
+        </div>
+    }
+
+</body>
+</html>
+
