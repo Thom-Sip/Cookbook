@@ -19,7 +19,7 @@ namespace Cookbook.Pipelines
             Regex rgx = new Regex(TOKEN_PATTERN);
             if (args.FieldTypeKey == "rich text")
             {
-                string fieldValue = args.FieldValue;
+                string fieldValue = HttpUtility.HtmlDecode(args.FieldValue);
                 foreach (Match match in rgx.Matches(fieldValue))
                 {
                     fieldValue = ReplaceTokens(fieldValue, match, args);
