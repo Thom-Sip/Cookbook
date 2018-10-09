@@ -128,6 +128,7 @@
     <Compile Include="Models\CarouselSlide.cs" />
     <Compile Include="Models\ItemList.cs" />
     <Compile Include="Pipelines\PageNotFoundResolver.cs" />
+    <Compile Include="Pipelines\ReplaceRTETokens.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tasks\ResetLayoutDetailsJob.cs" />
     <Compile Include="Tasks\ResetLayoutTask.cs" />
@@ -147,6 +148,7 @@
     <Content Include="App_Config\Include\Cookbook\Cookbook.AutoPublishEventHandlers.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.Hooks.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.Schedulers.config" />
+    <Content Include="App_Config\Include\Cookbook\Cookbook.RTEToken.config" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
