@@ -114,9 +114,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Caching\SharePriceCache.cs" />
+    <Compile Include="Caching\SharePriceCacheManager.cs" />
     <Compile Include="Commands\GetChildCount.cs" />
     <Compile Include="Commands\ResetLayouts.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
+    <Compile Include="Controllers\SharePriceController.cs" />
+    <Compile Include="Data\Comment.cs" />
     <Compile Include="Fields\DateTimeWithTimeZone.cs" />
     <Compile Include="Gutters\PublishGutter.cs" />
     <Compile Include="Handlers\AuditTrailEventHandler.cs" />
@@ -154,6 +158,7 @@
     <Content Include="App_Config\Include\Cookbook\Cookbook.Schedulers.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.RTEToken.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.RTETokenButton.config" />
+    <Content Include="App_Config\Include\Cookbook\Cookbook.ItemWebApi.config" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
