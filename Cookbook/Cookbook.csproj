@@ -123,6 +123,7 @@
     <Compile Include="Commands\DownloadMediaLibraryFolder.cs" />
     <Compile Include="Commands\GetChildCount.cs" />
     <Compile Include="Commands\ResetLayouts.cs" />
+    <Compile Include="Controllers\DisclaimerController.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Controllers\SharePriceController.cs" />
     <Compile Include="Data\Comment.cs" />
@@ -130,6 +131,7 @@
     <Compile Include="Gutters\PublishGutter.cs" />
     <Compile Include="Handlers\AuditTrailEventHandler.cs" />
     <Compile Include="Handlers\ItemPublishEventHandler.cs" />
+    <Compile Include="Handlers\MediaDisclaimerHandler.cs" />
     <Compile Include="Helpers\SiteHelper.cs" />
     <Compile Include="Hooks\AuditTrailHook.cs" />
     <Compile Include="Models\BreadcrumbItem.cs" />
@@ -183,6 +185,7 @@
     <Content Include="Views\Content\ProductList.cshtml" />
     <Content Include="Views\Navigation\LanguageSwitcher.cshtml" />
     <Content Include="Views\Content\Dictionary.cshtml" />
+    <Content Include="Views\Content\Disclaimer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
