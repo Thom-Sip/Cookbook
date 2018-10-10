@@ -22,7 +22,7 @@ namespace Cookbook.Publishing
             string ItemId = options.RootItemId.ToString();
             Item item = database.GetItem(new ID(ItemId));
 
-            if (item != null)
+            if (item == null)
                 return;
 
             ItemPath = item.Paths.Path;
