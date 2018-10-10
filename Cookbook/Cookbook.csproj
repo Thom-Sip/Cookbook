@@ -47,6 +47,14 @@
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.ContentSearch">
+      <HintPath>..\libraries\Sitecore.ContentSearch.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch.Linq">
+      <HintPath>..\libraries\Sitecore.ContentSearch.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\libraries\Sitecore.Kernel.dll</HintPath>
     </Reference>
@@ -125,8 +133,10 @@
     <Compile Include="Commands\ResetLayouts.cs" />
     <Compile Include="Controllers\DisclaimerController.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
+    <Compile Include="Features\Search\SearchController.cs" />
     <Compile Include="Controllers\SharePriceController.cs" />
     <Compile Include="Data\Comment.cs" />
+    <Compile Include="Features\Search\SearchFormModel.cs" />
     <Compile Include="Fields\DateTimeWithTimeZone.cs" />
     <Compile Include="Gutters\PublishGutter.cs" />
     <Compile Include="Handlers\AuditTrailEventHandler.cs" />
@@ -175,6 +185,7 @@
     <Content Include="App_Config\Include\Cookbook\Cookbook.MediaLibrary.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.PublishingEmail.config" />
     <Content Include="App_Config\Include\Cookbook.UniqueItemPublishing.config" />
+    <Content Include="Features\Search\test.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
@@ -193,6 +204,8 @@
     <Content Include="Views\Content\Dictionary.cshtml" />
     <Content Include="Views\Content\Disclaimer.cshtml" />
     <Content Include="Views\Content\Image-Gallery.cshtml" />
+    <Content Include="Features\Search\SearchForm.cshtml" />
+    <Content Include="Views\Content\SearchForm.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
