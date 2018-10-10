@@ -144,6 +144,7 @@
     <Compile Include="Pipelines\ReplaceRTETokens.cs" />
     <Compile Include="Pipelines\UploadRestrictions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Publishing\SendEmail.cs" />
     <Compile Include="Tasks\ResetLayoutDetailsJob.cs" />
     <Compile Include="Tasks\ResetLayoutTask.cs" />
     <Compile Include="Tasks\VersionDeletionAgent.cs" />
@@ -171,6 +172,7 @@
     <Content Include="App_Config\Include\Cookbook\Cookbook.ItemWebApi.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.UploadRestrictions.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.MediaLibrary.config" />
+    <Content Include="App_Config\Include\Cookbook\Cookbook.PublishingEmail.config" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
