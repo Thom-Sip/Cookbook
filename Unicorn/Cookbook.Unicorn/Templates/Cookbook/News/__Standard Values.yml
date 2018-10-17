@@ -1,0 +1,44 @@
+﻿---
+ID: "8bb7a6fb-35e4-43f9-9da3-89f4fdf6ad25"
+Parent: "09e40df6-d76b-4755-9774-f8053aa2e875"
+Template: "09e40df6-d76b-4755-9774-f8053aa2e875"
+Path: /sitecore/templates/Cookbook/News/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{35B453A2-BF3D-4EE5-8969-BAB954025D4F}">
+        <r
+          id="{1E801CB2-331D-40E0-A63A-78094CDEAEC5}"
+          ph="breadcrumb"
+          uid="{980A7F03-9DC4-4CB2-8FE0-3C81E10D92C9}" />
+        <r
+          id="{2C2E4245-A734-465E-834C-527697D1A1DE}"
+          ph="left-column"
+          uid="{30ECA680-931F-4E74-91F9-12EA82D12FF3}" />
+        <r
+          id="{8B3CA51C-7ED8-4919-A871-1DE19B053E8D}"
+          ph="main-content"
+          uid="{30A0F53F-EAF9-4296-BB89-C0849E957083}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181008T095942Z
+    - ID: "3b19180c-5414-4c7d-904c-76c666735468"
+      Hint: Release Date
+      Value: 20181008T100200Z
+    - ID: "d276f499-6ca6-42c8-8342-5fa51c407aff"
+      Hint: Auto publish
+      Type: Checkbox
+      Value: 0

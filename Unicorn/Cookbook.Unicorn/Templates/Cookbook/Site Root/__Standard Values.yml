@@ -1,0 +1,96 @@
+﻿---
+ID: "d6f66c66-85eb-4c10-9d56-738b487e0554"
+Parent: "82797bb4-d777-49ec-8fc1-f8e091ad84b0"
+Template: "82797bb4-d777-49ec-8fc1-f8e091ad84b0"
+Path: /sitecore/templates/Cookbook/Site Root/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{35B453A2-BF3D-4EE5-8969-BAB954025D4F}">
+        <p
+          uid="{2937D3C2-EDC0-447F-A9A8-A0890C8F96BB}"
+          key="main-content"
+          md="/sitecore/layout/Placeholder Settings/main content/Home Content" />
+        <r
+          id="{CED7B8E2-42BD-4AF1-A694-4D4EC44ACC57}"
+          ph="main-content"
+          uid="{F1109C2A-4713-4874-83BE-6BF6E90D9230}">
+          <rls>
+            <ruleset>
+              <rule
+                uid="{00000000-0000-0000-0000-000000000000}"
+                name="Default">
+                <conditions>
+                  <condition
+                    id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+                    uid="EB736F5E36074D868C9C0516D45D037F" />
+                </conditions>
+                <actions />
+              </rule>
+            </ruleset>
+          </rls>
+        </r>
+        <r
+          id="{1E801CB2-331D-40E0-A63A-78094CDEAEC5}"
+          ph="breadcrumb"
+          uid="{47859EB4-509E-46C2-B73F-FDC6228A08C9}" />
+        <r
+          id="{2C2E4245-A734-465E-834C-527697D1A1DE}"
+          ph="left-column"
+          uid="{13F0C28A-C678-4E0C-B5BC-5B46B3220CE1}" />
+        <r
+          id="{8B3CA51C-7ED8-4919-A871-1DE19B053E8D}"
+          ph="main-content"
+          uid="{A113F6DA-1C0A-4CFF-9D88-74D18D235D75}" />
+        <r
+          id="{271CDEE3-BABA-4B11-B833-84BC892DAB90}"
+          ph="language-switcher"
+          uid="{3E5A4010-4C80-4625-B6E6-A7317251C931}" />
+        <r
+          id="{C78419C0-F0F4-4215-9337-19E8C1E12D32}"
+          ph="search"
+          uid="{72B866A3-B59F-495C-8E59-8BC8C8E3AB86}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T072912Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00887f93-de85-4b17-aee4-56d66d1b410d"
+      Hint: Body
+      Value: ES
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T120536Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6d0dcaee-0337-4209-9198-fd10d940c670"
+      Hint: Title
+      Value: Spain
+    - ID: "77b47c72-5f9b-4ef5-9054-2747a7a03407"
+      Hint: Carousel Slides
+      Type: Treelist
+      Value: |
+        {D6FCD2EC-D27E-4E9E-AB9A-CFB043C06A29}
+        {033D14C2-B897-46FE-9B15-64E2EBC34035}
+        {2B09799B-7D0B-48B7-8612-6990098FF8C9}

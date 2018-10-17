@@ -1,0 +1,64 @@
+﻿---
+ID: "64eeb482-4138-473c-9da6-e00ff8a74052"
+Parent: "793e5141-df00-4847-9d25-d957d1df466a"
+Template: "793e5141-df00-4847-9d25-d957d1df466a"
+Path: /sitecore/templates/Cookbook/Product Section/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{35B453A2-BF3D-4EE5-8969-BAB954025D4F}">
+        <p
+          uid="{6AB4177A-9B81-4CDA-8CA8-37D2E64C141E}"
+          key="main-content"
+          md="/sitecore/layout/Placeholder Settings/main content" />
+        <r
+          id="{8B3CA51C-7ED8-4919-A871-1DE19B053E8D}"
+          ph="main-content"
+          uid="{AA6300A8-EE9E-4202-988E-20705369EE5A}" />
+        <r
+          id="{494DED72-38FF-41FE-BC51-169A9086231A}"
+          ph="main-content"
+          uid="{366596D7-D056-4B94-A3E4-04CA92D7D3CA}" />
+        <r
+          id="{2C2E4245-A734-465E-834C-527697D1A1DE}"
+          ph="left-column"
+          uid="{D188FEC2-8B17-489E-98A0-E225B12C102A}" />
+        <r
+          id="{1E801CB2-331D-40E0-A63A-78094CDEAEC5}"
+          ph="breadcrumb"
+          uid="{F88E84C6-25E0-4390-A536-F9B8753D4768}" />
+        <r
+          id="{271CDEE3-BABA-4B11-B833-84BC892DAB90}"
+          ph="language-switcher"
+          uid="{4FF380D4-4681-455E-ABEF-852EE023969C}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T075227Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T122514Z
+    - ID: "33700c77-3cd4-40d2-8fb1-70d051705f88"
+      Hint: Show in Menu
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

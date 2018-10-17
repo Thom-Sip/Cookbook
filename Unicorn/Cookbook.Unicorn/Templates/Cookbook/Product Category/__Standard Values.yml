@@ -1,0 +1,64 @@
+﻿---
+ID: "fa120bc7-2dd8-4069-ac10-617e2ae366c0"
+Parent: "37afda01-39de-4bea-9d33-50fdd115ed6a"
+Template: "37afda01-39de-4bea-9d33-50fdd115ed6a"
+Path: /sitecore/templates/Cookbook/Product Category/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{35B453A2-BF3D-4EE5-8969-BAB954025D4F}">
+        <p
+          uid="{09A24EBB-D451-4836-8739-E2A63C61EDDA}"
+          key="main-content"
+          md="/sitecore/layout/Placeholder Settings/main content/Balls Content" />
+        <r
+          id="{1E801CB2-331D-40E0-A63A-78094CDEAEC5}"
+          ph="breadcrumb"
+          uid="{D48FE970-0E07-4986-8DAD-1EC4073A10E8}" />
+        <r
+          id="{2C2E4245-A734-465E-834C-527697D1A1DE}"
+          ph="left-column"
+          uid="{54A87DCF-9530-45FA-B160-B006A99CE2E2}" />
+        <r
+          id="{494DED72-38FF-41FE-BC51-169A9086231A}"
+          ph="main-content"
+          uid="{388A82D9-FEBB-4FB6-8E3F-67860900F589}" />
+        <r
+          id="{1BA222E4-FC27-4A48-93D3-A8BE3AAA5C62}"
+          ph="left-column"
+          uid="{945B0E77-DC6C-465B-9167-2473FC8A2D43}" />
+        <r
+          id="{271CDEE3-BABA-4B11-B833-84BC892DAB90}"
+          ph="language-switcher"
+          uid="{89BC62BC-AFB6-4994-822F-5E797F044645}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T080038Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T122334Z
+    - ID: "33700c77-3cd4-40d2-8fb1-70d051705f88"
+      Hint: Show in Menu
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

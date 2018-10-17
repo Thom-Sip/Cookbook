@@ -1,0 +1,25 @@
+﻿---
+ID: "d191aad3-9649-4429-acf6-840ad643ab2d"
+Parent: "33479e58-bbbc-47cb-9a89-2e83be7190db"
+Template: "33479e58-bbbc-47cb-9a89-2e83be7190db"
+Path: /sitecore/templates/Cookbook/Common Fields/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181004T113639Z
+    - ID: "33700c77-3cd4-40d2-8fb1-70d051705f88"
+      Hint: Show in Menu
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: $name

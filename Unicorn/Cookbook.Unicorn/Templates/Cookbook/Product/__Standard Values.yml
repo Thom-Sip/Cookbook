@@ -1,0 +1,54 @@
+﻿---
+ID: "7e083c23-9afb-4d10-844f-3cc1716c4e97"
+Parent: "2a4431b5-16df-4510-ad65-8949d7e01c60"
+Template: "2a4431b5-16df-4510-ad65-8949d7e01c60"
+Path: /sitecore/templates/Cookbook/Product/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{7FBB2059-0EC2-4A52-8789-D28D3964FE84}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{35B453A2-BF3D-4EE5-8969-BAB954025D4F}">
+        <r
+          id="{2C2E4245-A734-465E-834C-527697D1A1DE}"
+          ph="left-column"
+          uid="{28FC3003-9CE7-4007-B14E-D837B4DF707B}" />
+        <r
+          id="{1E801CB2-331D-40E0-A63A-78094CDEAEC5}"
+          ph="breadcrumb"
+          uid="{D0E43067-2A48-46AB-8E7E-615DFD708C4F}" />
+        <r
+          id="{8B3CA51C-7ED8-4919-A871-1DE19B053E8D}"
+          ph="main-content"
+          uid="{DAC807CD-BCE4-48E1-9535-3E22CBD579EE}" />
+        <r
+          id="{271CDEE3-BABA-4B11-B833-84BC892DAB90}"
+          ph="language-switcher"
+          uid="{85F5ED68-5A4F-4D1E-B943-FCBF45C23047}" />
+      </d>
+      <d
+        id="{C196B88D-EDAB-4FCC-9769-7004C023D60A}"
+        l="{24F2B8E1-069D-44FB-BB6B-BECDD9446C3A}">
+        <r
+          ds=""
+          id="{8B3CA51C-7ED8-4919-A871-1DE19B053E8D}"
+          par=""
+          ph="async-content"
+          uid="{A6232568-EBEB-418B-8134-3C3806F44CB9}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T075048Z

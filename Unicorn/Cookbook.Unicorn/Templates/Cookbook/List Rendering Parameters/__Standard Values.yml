@@ -1,0 +1,14 @@
+﻿---
+ID: "37daf5a0-739b-46c7-8d84-a38bdc5a6eee"
+Parent: "64163e32-bcbe-47ad-9be0-d3d0413ba1bf"
+Template: "64163e32-bcbe-47ad-9be0-d3d0413ba1bf"
+Path: /sitecore/templates/Cookbook/List Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T095210Z

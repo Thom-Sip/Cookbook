@@ -1,0 +1,44 @@
+﻿---
+ID: "2a4431b5-16df-4510-ad65-8949d7e01c60"
+Parent: "2bf7c527-47a9-403a-8efa-07db9487573e"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Cookbook/Product
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {33479E58-BBBC-47CB-9A89-2E83BE7190DB}
+    {06F366E6-A7E6-470B-9EC9-CD29A4F6C8E8}
+    {D0CDA191-49A9-4E30-ACAC-40F7F2643C97}
+    {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{73966209-F1B6-43CA-853A-F1DB1C9A654B}"
+        l="{A57C19C2-8EE3-4DEC-AA39-0B8D522D59EB}">
+        <r
+          id="{86F838F5-7E87-45BB-876F-C021324AC8B0}"
+          par="TitleField=Title&amp;BodyField=Body&amp;DateField=__Created"
+          uid="{E2884EA9-079F-4385-A9E8-3377AC44B758}" />
+      </d>
+    </r>
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{7E083C23-9AFB-4D10-844F-3CC1716C4E97}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181004T114109Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

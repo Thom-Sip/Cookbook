@@ -1,0 +1,28 @@
+﻿---
+ID: "d2b5aa1b-d3e5-48ba-a02f-1ed4029b6a8e"
+Parent: "00a984ab-24d2-450a-be90-38e12c1e5b5c"
+Template: "00a984ab-24d2-450a-be90-38e12c1e5b5c"
+Path: /sitecore/templates/Cookbook/Site Configuration/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181004T112048Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "68233998-a05f-4d56-adfc-5c98b99e6691"
+      Hint: Logo
+      Value: |
+        <image mediaid="{094AED03-02E7-4868-80CB-19926661FB77}" />
+    - ID: "70bb4926-1f63-4f23-8948-c1b449f1921d"
+      Hint: Copyright Text
+      Value: |
+        Copyright 2018
+        Colours BV
+        

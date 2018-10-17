@@ -1,0 +1,46 @@
+﻿---
+ID: "e6631b5f-fd5f-4ff5-9448-22ae79e691d0"
+Parent: "9b9a349f-26f6-485e-bdab-268436737a32"
+Template: "9b9a349f-26f6-485e-bdab-268436737a32"
+Path: /sitecore/templates/Cookbook/Book/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{35B453A2-BF3D-4EE5-8969-BAB954025D4F}">
+        <r
+          id="{1E801CB2-331D-40E0-A63A-78094CDEAEC5}"
+          ph="breadcrumb"
+          uid="{15550C98-CEEB-4BB9-B574-53D4CE33CC66}" />
+        <r
+          id="{8B3CA51C-7ED8-4919-A871-1DE19B053E8D}"
+          ph="main-content"
+          uid="{44E58AFD-017A-46B4-89B2-02F1745CDBCC}" />
+        <r
+          id="{2C2E4245-A734-465E-834C-527697D1A1DE}"
+          ph="left-column"
+          uid="{E4A2C494-2955-4DF7-932C-5B1A6C798197}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181010T081723Z
+    - ID: "3647a5f7-810e-44a1-b045-a38d92891962"
+      Hint: Release Date
+      Value: 20181009T220000Z
+    - ID: "544de24a-a455-4824-badf-d51df9e637be"
+      Hint: Title
+      Value: My Title
+    - ID: "5adeaa2b-ac66-48b0-9e25-cc18db0cdeb9"
+      Hint: Author
+      Value: The Author
