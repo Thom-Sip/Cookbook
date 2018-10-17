@@ -224,7 +224,6 @@
     <None Include="App_Config\Include\Cookbook\Unicorn.Configs.Cookbook.Config" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
-    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Views\main.cshtml" />
     <Content Include="Views\Navigation\SideMenu.cshtml" />
     <Content Include="Views\Navigation\TopMenu.cshtml" />
@@ -242,6 +241,7 @@
     <Content Include="Views\Content\Image-Gallery.cshtml" />
     <Content Include="Features\Search\SearchForm.cshtml" />
     <Content Include="Views\Content\SearchForm.cshtml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
