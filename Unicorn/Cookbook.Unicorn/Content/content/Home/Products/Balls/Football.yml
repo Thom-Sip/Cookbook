@@ -1,0 +1,84 @@
+﻿---
+ID: "21e4b715-08c9-4079-8d02-fe991b710f66"
+Parent: "85cc7a52-9671-460f-a263-419396fb668f"
+Template: "2a4431b5-16df-4510-ad65-8949d7e01c60"
+Path: /sitecore/content/Home/Products/Balls/Football
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181004T114153Z
+    - ID: "4d16314b-627c-4f04-a8a6-8ff71ce961d4"
+      Hint: Title
+      Value: Football
+    - ID: "6f598fa2-2620-4634-8593-bd3b2da01596"
+      Hint: Image
+      Value: |
+        <image mediaid="{CBEEE199-C567-442C-85A6-D8ED66B8AF7E}" ></image>
+    - ID: "8c7e21c1-58a7-419f-a85d-99ef12da8c12"
+      Hint: Company
+      Value: Adidas
+    - ID: "98017658-8432-4382-b073-119ef8083735"
+      Hint: Release Data
+      Value: 20180605T220000Z
+    - ID: "a8c22b9a-6742-417d-87d5-4a09885f68da"
+      Hint: Price
+      Value: 1.45
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: Football
+    - ID: "fddbad72-be6a-4d7c-ba15-788d9e4438d5"
+      Hint: Body
+      Value: |
+        <p style="color: #222222; background-color: #ffffff; margin: 0.5em 0px;"><strong>Football</strong>&nbsp;is a family of&nbsp;<a href="https://en.wikipedia.org/wiki/Team_sport" title="Team sport" style="color: #0b0080; background: none;">team sports</a>&nbsp;that involve, to varying degrees,&nbsp;<a href="https://en.wikipedia.org/wiki/Kick_(football)" title="Kick (football)" style="color: #0b0080; background: none;">kicking</a>&nbsp;a&nbsp;<a href="https://en.wikipedia.org/wiki/Football_(ball)" title="Football (ball)" style="color: #0b0080; background: none;">ball</a>&nbsp;with a foot to score a&nbsp;<a href="https://en.wikipedia.org/wiki/Goal_(sport)" title="Goal (sport)" style="color: #0b0080; background: none;">goal</a>. Unqualified,&nbsp;<a href="https://en.wikipedia.org/wiki/Football_(word)" title="Football (word)" style="color: #0b0080; background: none;">the word&nbsp;<em>football</em></a>&nbsp;is understood to refer to whichever form of football is the most popular in the regional context in which the word appears. </p>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T113126Z
+    - ID: "33700c77-3cd4-40d2-8fb1-70d051705f88"
+      Hint: Show in Menu
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6f598fa2-2620-4634-8593-bd3b2da01596"
+      Hint: Image
+      Value: |
+        <image mediaid="{CBEEE199-C567-442C-85A6-D8ED66B8AF7E}" />
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: Spanish football
+    - ID: "fddbad72-be6a-4d7c-ba15-788d9e4438d5"
+      Hint: Body
+      Value: This is the spanish content for the football page
+- Language: "it-IT"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T113254Z
+    - ID: "33700c77-3cd4-40d2-8fb1-70d051705f88"
+      Hint: Show in Menu
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: Football IT
+    - ID: "fddbad72-be6a-4d7c-ba15-788d9e4438d5"
+      Hint: Body
+      Value: |
+        <span style="background-color: #f0f0f0;">Football IT</span>

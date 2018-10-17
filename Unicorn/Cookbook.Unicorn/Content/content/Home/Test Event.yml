@@ -1,0 +1,24 @@
+﻿---
+ID: "241aba6e-8ad7-4f25-87d6-3c34be3e2212"
+Parent: "45b5941a-a719-4bad-87f6-8d75af1cc6f8"
+Template: "88e99255-08d6-4925-9062-35635067ce83"
+Path: /sitecore/content/Home/Test Event
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181008T084901Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7b351d11-bd78-44dc-b70b-f528b3ba71e1"
+      Hint: Date With Zone
+      Value: 20180427T000000|Dateline Standard Time
+    - ID: "dce26e46-ff79-4e4d-bcfc-0e091ffa20aa"
+      Hint: Name
+      Value: dawdawd

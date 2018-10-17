@@ -1,0 +1,31 @@
+﻿---
+ID: "f59997fb-d1e7-4b7a-b154-fdb4289eedab"
+Parent: "45b5941a-a719-4bad-87f6-8d75af1cc6f8"
+Template: "09e40df6-d76b-4755-9774-f8053aa2e875"
+Path: /sitecore/content/Home/Test News
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181008T095637Z
+    - ID: "3b19180c-5414-4c7d-904c-76c666735468"
+      Hint: Release Date
+      Value: 20181009T003000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: Test News
+    - ID: "d276f499-6ca6-42c8-8342-5fa51c407aff"
+      Hint: Auto publish
+      Type: Checkbox
+      Value: 1
+    - ID: "fddbad72-be6a-4d7c-ba15-788d9e4438d5"
+      Hint: Body
+      Value: "Hallo, dit is niews aaaa zzz __ !!!!!!!!!! _ )))))"

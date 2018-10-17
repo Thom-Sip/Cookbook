@@ -1,0 +1,25 @@
+﻿---
+ID: "3fd78057-608d-47d9-9073-b302a397dc82"
+Parent: "45b5941a-a719-4bad-87f6-8d75af1cc6f8"
+Template: "77003ea7-d655-4fef-bdda-ab145f22d272"
+Path: /sitecore/content/Home/ImageGallery
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0668f6fc-5ce8-43ce-857b-3b513c2c2bb2"
+      Hint: Image2
+      Value: |
+        <image mediaid="{D6D8F0CB-C02B-40EC-96BC-BE10160F7218}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181009T114321Z
+    - ID: "2f3c5ff4-b6b2-49e3-b01a-fc511426ce64"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A9F0C82-737C-4514-BBAD-21DB84340260}" />
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: ImageGallery

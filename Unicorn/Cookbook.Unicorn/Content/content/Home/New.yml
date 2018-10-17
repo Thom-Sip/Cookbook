@@ -1,0 +1,23 @@
+﻿---
+ID: "8273d898-2e8d-4d1e-bcb2-cef500ac8176"
+Parent: "45b5941a-a719-4bad-87f6-8d75af1cc6f8"
+Template: "09e40df6-d76b-4755-9774-f8053aa2e875"
+Path: /sitecore/content/Home/New
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181008T145601Z
+    - ID: "3b19180c-5414-4c7d-904c-76c666735468"
+      Hint: Release Date
+      Value: 20181008T145600Z
+    - ID: "45ca7ef2-76a5-4a66-a355-e787fbe6f457"
+      Hint: Company
+      Value: MyCOmpoA
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: NewAAA

@@ -1,0 +1,18 @@
+﻿---
+ID: "bfd1dcf2-7e9b-4f7b-84cd-356d93c56d11"
+Parent: "4da0a8dd-18c9-4b2e-bc38-a9e4effdaa86"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Global/Disclaimers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181009T110459Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,56 @@
+﻿---
+ID: "85cc7a52-9671-460f-a263-419396fb668f"
+Parent: "8d678e1e-6463-41a6-a749-658bacd0c58e"
+Template: "37afda01-39de-4bea-9d33-50fdd115ed6a"
+Path: /sitecore/content/Home/Products/Balls
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C70C4A70-4BEE-48CF-9959-1D1C9A4BA039}"
+              p:after="*[1=2]"
+              s:id="{E9732944-07F2-48F5-9ED4-68EF83B94028}"
+              s:ph="main-content" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181004T114142Z
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: Balls
+    - ID: "fddbad72-be6a-4d7c-ba15-788d9e4438d5"
+      Hint: Body
+      Value: &nbsp;
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T120127Z
+    - ID: "33700c77-3cd4-40d2-8fb1-70d051705f88"
+      Hint: Show in Menu
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: Spanish Balls
+    - ID: "fddbad72-be6a-4d7c-ba15-788d9e4438d5"
+      Hint: Body
+      Value: Ola Si Si

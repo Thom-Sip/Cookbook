@@ -1,0 +1,140 @@
+﻿---
+ID: "45b5941a-a719-4bad-87f6-8d75af1cc6f8"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "82797bb4-d777-49ec-8fc1-f8e091ad84b0"
+Path: /sitecore/content/Home
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-100"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00887f93-de85-4b17-aee4-56d66d1b410d"
+      Hint: Body
+      Value: |
+        <p>
+        <token field="Company" item="/sitecore/Content/Home/New"></token>
+        </p>
+        <p>
+        <token field="Title" item="{8273D898-2E8D-4D1E-BCB2-CEF500AC8176}"></token>
+        </p>
+        <p style="color: #000000; background-color: #ffffff; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify;">Lorem <strong>ipsum </strong>dolor sit amet, consectetur adipiscing elit. Phasellus laoreet tortor lacus, ut facilisis massa aliquet ac. Praesent rutrum ipsum nec justo vulputate, sed ullamcorper odio elementum. Quisque volutpat odio et justo porttitor, ac imperdiet urna commodo. Fusce nisl turpis, laoreet quis metus quis, viverra porttitor sem. Aenean non sollicitudin turpis. Integer eget cursus quam. Sed iaculis tellus sit amet tristique efficitur. Pellentesque rutrum velit ac odio hendrerit viverra ut sed diam. Nam scelerisque felis eget pulvinar tincidunt. Phasellus vitae placerat lacus.</p>
+        <p style="color: #000000; background-color: #ffffff; margin: 0px 0px 15px; padding: 0px; text-align: justify;">Proin quis nisi ac turpis tincidunt porttitor quis sed lorem. Donec gravida ornare turpis in ultrices. Aliquam blandit diam quam, sollicitudin dictum lectus placerat quis. Nunc eget porta mi. Proin volutpat, nunc pellentesque facilisis congue, odio neque iaculis eros, vel commodo nunc magna sit amet ante. Aenean ex sapien, posuere sit amet neque vitae, feugiat imperdiet velit. Nunc vulputate lacus diam, at pharetra tortor tincidunt nec. In urna dolor, porttitor id velit id, pellentesque vehicula mauris. Fusce placerat, ante quis malesuada volutpat, ex urna tincidunt quam, tempus laoreet nunc justo faucibus neque. Etiam et elit sit amet velit rhoncus ornare non sit amet ipsum.</p>
+        <p style="color: #000000; background-color: #ffffff; margin: 0px 0px 15px; padding: 0px; text-align: justify;">Nulla eget enim et risus porta consequat. Praesent tempor, nisl eget auctor imperdiet, ipsum mauris ornare lacus, nec mollis enim urna ut dui. Nunc nibh nisl, lacinia et sagittis a, vehicula ut urna. Sed cursus lorem et diam viverra cursus. Suspendisse eget suscipit velit, et aliquet massa. Cras semper augue ante, ut convallis mi porta eget. Donec convallis tempus cursus.</p>
+    - ID: "028c8686-f82b-4a5f-820a-fdee37dec23b"
+      Hint: Image
+      Value: |
+        <image mediaid="{CBEEE199-C567-442C-85A6-D8ED66B8AF7E}" />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{323ACF5E-E1C5-4287-A63D-540E7830EC0C}"
+              p:after="p[@uid='{2937D3C2-EDC0-447F-A9A8-A0890C8F96BB}']"
+              s:id="{BCFC6D29-278F-409A-AAF2-FE9100321013}"
+              s:ph="main-content" />
+            <r
+              uid="{28C3A887-288F-49A5-B870-FA390CEB266D}"
+              p:after="r[@uid='{3E5A4010-4C80-4625-B6E6-A7317251C931}']"
+              s:ds="{6218F767-D05C-493F-B02F-C8158675932E}"
+              s:id="{494DED72-38FF-41FE-BC51-169A9086231A}"
+              s:par="Css Class=Home+list"
+              s:ph="main-content" />
+            <r
+              uid="{5BD18528-C126-4DBA-8D59-85C5F9877FD9}"
+              p:after="r[@uid='{28C3A887-288F-49A5-B870-FA390CEB266D}']"
+              s:ds="{85CC7A52-9671-460F-A263-419396FB668F}"
+              s:id="{494DED72-38FF-41FE-BC51-169A9086231A}"
+              s:par="Css Class=Home+list"
+              s:ph="main-content" />
+            <r
+              uid="{BA388EC0-1C0C-4243-A280-1F8CF3B1C456}"
+              p:after="r[@uid='{5BD18528-C126-4DBA-8D59-85C5F9877FD9}']"
+              s:id="{1F0841D3-6D0B-4952-A3FA-9469A5D9F9AB}"
+              s:ph="main-content" />
+            <r
+              uid="{A9004637-C560-4991-AE4F-67062F0CAB62}"
+              p:after="r[@uid='{BA388EC0-1C0C-4243-A280-1F8CF3B1C456}']"
+              s:id="{E9732944-07F2-48F5-9ED4-68EF83B94028}"
+              s:ph="main-content" />
+            <r
+              uid="{72B866A3-B59F-495C-8E59-8BC8C8E3AB86}"
+              p:after="r[@uid='{A9004637-C560-4991-AE4F-67062F0CAB62}']" />
+            <r
+              uid="{0B3F224B-725D-46E7-8D46-7D2946CDDE3D}"
+              p:after="*[1=2]"
+              s:id="{944F409B-4D7F-48A8-BF25-7CB4E6FDF31F}"
+              s:ph="main-content" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181004T100915Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6d0dcaee-0337-4209-9198-fd10d940c670"
+      Hint: Title
+      Value: "Lorum Ipsum !!!!!!"
+    - ID: "77b47c72-5f9b-4ef5-9054-2747a7a03407"
+      Hint: Carousel Slides
+      Type: Treelist
+      Value: |
+        {2B09799B-7D0B-48B7-8612-6990098FF8C9}
+        {D6FCD2EC-D27E-4E9E-AB9A-CFB043C06A29}
+        {033D14C2-B897-46FE-9B15-64E2EBC34035}
+    - ID: "ccd5cba6-be20-417a-8f3e-911a6e9c6dcf"
+      Hint: Link Item
+      Value: "{D6FCD2EC-D27E-4E9E-AB9A-CFB043C06A29}"
+    - ID: "e5a5af11-3dd4-4c7e-857e-32d51f4074a4"
+      Hint: Title
+      Value: Slide Test
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00887f93-de85-4b17-aee4-56d66d1b410d"
+      Hint: Body
+      Value: Ola
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{5428732D-21E6-42A3-BCDC-FD9C8424C5DC}"
+              p:after="*[1=2]"
+              s:id="{944F409B-4D7F-48A8-BF25-7CB4E6FDF31F}"
+              s:ph="main-content" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T115908Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6d0dcaee-0337-4209-9198-fd10d940c670"
+      Hint: Title
+      Value: Spanish Lipsum
+    - ID: "77b47c72-5f9b-4ef5-9054-2747a7a03407"
+      Hint: Carousel Slides
+      Type: Treelist
+      Value: |
+        {2B09799B-7D0B-48B7-8612-6990098FF8C9}
+        {D6FCD2EC-D27E-4E9E-AB9A-CFB043C06A29}
+        {033D14C2-B897-46FE-9B15-64E2EBC34035}

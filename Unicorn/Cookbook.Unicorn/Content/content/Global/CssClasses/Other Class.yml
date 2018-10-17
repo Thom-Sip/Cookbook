@@ -1,0 +1,24 @@
+﻿---
+ID: "3c790b31-1368-4c11-b79d-df4be5a190f4"
+Parent: "029bc232-52eb-4507-a0e6-6a4315fd42d7"
+Template: "07b68902-abe5-468b-b6a2-a5009eaf41a8"
+Path: /sitecore/content/Global/CssClasses/Other Class
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T094701Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7d9d304e-09d6-4250-a6b3-776fcfb12a29"
+      Hint: Description
+      Value: This one doesn't exist
+    - ID: "db07bc26-43fe-4c48-96bf-8b97bc3ced3d"
+      Hint: Class Name
+      Value: "other-class"

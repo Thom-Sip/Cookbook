@@ -1,0 +1,49 @@
+﻿---
+ID: "2b09799b-7d0b-48b7-8612-6990098ff8c9"
+Parent: "2ec4c103-9dca-4e7c-835e-81d23df1ba85"
+Template: "2870cffa-11cb-49d1-9ec9-7fc9f2aca980"
+Path: /sitecore/content/Global/Carousel Slides/Carousel Slide Basketball
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "028c8686-f82b-4a5f-820a-fdee37dec23b"
+      Hint: Image
+      Value: |
+        <image mediaid="{543408B7-5A2B-41F6-AA9C-541704C390C8}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181004T140110Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ccd5cba6-be20-417a-8f3e-911a6e9c6dcf"
+      Hint: Link Item
+      Value: "{F287EEBD-194B-4A8C-83DC-21A9E3AC3337}"
+    - ID: "e5a5af11-3dd4-4c7e-857e-32d51f4074a4"
+      Hint: Title
+      Value: BasketBall
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "028c8686-f82b-4a5f-820a-fdee37dec23b"
+      Hint: Image
+      Value: |
+        <image mediaid="{543408B7-5A2B-41F6-AA9C-541704C390C8}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T122048Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ccd5cba6-be20-417a-8f3e-911a6e9c6dcf"
+      Hint: Link Item
+      Value: "{F287EEBD-194B-4A8C-83DC-21A9E3AC3337}"
+    - ID: "e5a5af11-3dd4-4c7e-857e-32d51f4074a4"
+      Hint: Title
+      Value: ES Basket

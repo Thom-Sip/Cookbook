@@ -1,0 +1,24 @@
+﻿---
+ID: "d5c8ddb9-8828-4e42-9839-c43b70a0394c"
+Parent: "45b5941a-a719-4bad-87f6-8d75af1cc6f8"
+Template: "73c5e388-72c1-48f2-b4d9-0006ec9beff8"
+Path: "/sitecore/content/Home/Privacy-Disclaimer"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181009T110208Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b5776b6c-9d73-4a96-b2ed-fcca4dbd6e65"
+      Hint: Title
+      Value: Disclaimer
+    - ID: "b8d23be1-748c-4bd6-8038-ae547dac519a"
+      Hint: Description
+      Value: This is a privacy disclaimer

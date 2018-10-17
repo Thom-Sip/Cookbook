@@ -1,0 +1,20 @@
+﻿---
+ID: "d0932ba2-3a97-4be7-bfab-d366e9c63c4f"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "82797bb4-d777-49ec-8fc1-f8e091ad84b0"
+Path: "/sitecore/content/404-page"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00887f93-de85-4b17-aee4-56d66d1b410d"
+      Hint: Body
+      Value: Not Found
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181008T093657Z
+    - ID: "6d0dcaee-0337-4209-9198-fd10d940c670"
+      Hint: Title
+      Value: 404

@@ -1,0 +1,23 @@
+﻿---
+ID: "3b907efd-59b6-427b-b655-ee8af880a589"
+Parent: "45b5941a-a719-4bad-87f6-8d75af1cc6f8"
+Template: "793e5141-df00-4847-9d25-d957d1df466a"
+Path: /sitecore/content/Home/Services
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T084725Z
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: Services
+    - ID: "fddbad72-be6a-4d7c-ba15-788d9e4438d5"
+      Hint: Body
+      Value: |
+        <p>These are the services</p>
+        <p><a href="~/link.aspx?_id=B489395C9E7D4B40AA4A5C36D16F7037&amp;_z=z">Shopping</a></p>
+        <p><a href="~/link.aspx?_id=1B5934ED8C314B20A3758F0A3C32FD3C&amp;_z=z">Walking the dog</a></p>

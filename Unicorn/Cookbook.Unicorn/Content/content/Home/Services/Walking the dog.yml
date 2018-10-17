@@ -1,0 +1,20 @@
+﻿---
+ID: "1b5934ed-8c31-4b20-a375-8f0a3c32fd3c"
+Parent: "3b907efd-59b6-427b-b655-ee8af880a589"
+Template: "2a4431b5-16df-4510-ad65-8949d7e01c60"
+Path: /sitecore/content/Home/Services/Walking the dog
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T085104Z
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: Walking the dog
+    - ID: "fddbad72-be6a-4d7c-ba15-788d9e4438d5"
+      Hint: Body
+      Value: We can walk your dog for you

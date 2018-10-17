@@ -1,0 +1,61 @@
+﻿---
+ID: "b7451bef-ef2a-4220-8d9c-1a86fac832d8"
+Parent: "85cc7a52-9671-460f-a263-419396fb668f"
+Template: "2a4431b5-16df-4510-ad65-8949d7e01c60"
+Path: /sitecore/content/Home/Products/Balls/Golfball
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181008T073421Z
+    - ID: "4d16314b-627c-4f04-a8a6-8ff71ce961d4"
+      Hint: Title
+      Value: Golfball
+    - ID: "6f598fa2-2620-4634-8593-bd3b2da01596"
+      Hint: Image
+      Value: |
+        <image mediaid="{EE486513-34B7-4288-9E80-5083ED9684AB}" />
+    - ID: "8c7e21c1-58a7-419f-a85d-99ef12da8c12"
+      Hint: Company
+      Value: Tiger Woods
+    - ID: "98017658-8432-4382-b073-119ef8083735"
+      Hint: Release Data
+      Value: 20180311T230000Z
+    - ID: "a8c22b9a-6742-417d-87d5-4a09885f68da"
+      Hint: Price
+      Value: 299.99
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: Golfball
+    - ID: "fddbad72-be6a-4d7c-ba15-788d9e4438d5"
+      Hint: Body
+      Value: |
+        <p style="color: #222222; background-color: #ffffff; margin: 0.5em 0px;">A&nbsp;<strong>golf ball</strong>&nbsp;is a special&nbsp;<a href="https://en.wikipedia.org/wiki/Ball" title="Ball" style="color: #0b0080; background: none;">ball</a>&nbsp;designed to be used in the game of&nbsp;<a href="https://en.wikipedia.org/wiki/Golf" title="Golf" style="color: #0b0080; background: none;">golf</a>.</p>
+        <p style="color: #222222; background-color: #ffffff; margin: 0.5em 0px;">Under the&nbsp;<a href="https://en.wikipedia.org/wiki/Rules_of_golf" title="Rules of golf" style="color: #0b0080; background: none;">rules of golf</a>, a golf ball has a&nbsp;<a href="https://en.wikipedia.org/wiki/Mass" title="Mass" style="color: #0b0080; background: none;">mass</a>&nbsp;no more than 1.620 oz (45.93&nbsp;grams), has a diameter not less than 1.680 in (42.67&nbsp;mm), and performs within specified velocity, distance, and symmetry limits. Like&nbsp;<a href="https://en.wikipedia.org/wiki/Golf_club_(equipment)" class="mw-redirect" title="Golf club (equipment)" style="color: #0b0080; background: none;">golf clubs</a>, golf balls are subject to testing and approval by the&nbsp;<a href="https://en.wikipedia.org/wiki/Royal_&_Ancient#The_R&amp;A" class="mw-redirect" title="Royal &amp; Ancient" style="color: #0b0080; background: none;">R&amp;A</a>&nbsp;(formerly part of the&nbsp;<a href="https://en.wikipedia.org/wiki/Royal_and_Ancient_Golf_Club_of_St_Andrews" class="mw-redirect" title="Royal and Ancient Golf Club of St Andrews" style="color: #0b0080; background: none;">Royal and Ancient Golf Club of St Andrews</a>) and the&nbsp;<a href="https://en.wikipedia.org/wiki/United_States_Golf_Association" title="United States Golf Association" style="color: #0b0080; background: none;">United States Golf Association</a>, and those that do not conform with regulations may not be used in competitions&nbsp;<em>(Rule 5&ndash;1)</em>.</p>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181008T141655Z
+    - ID: "4d16314b-627c-4f04-a8a6-8ff71ce961d4"
+      Hint: Title
+      Value: Goldballo
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8c7e21c1-58a7-419f-a85d-99ef12da8c12"
+      Hint: Company
+      Value: Amrdmd
+    - ID: "98017658-8432-4382-b073-119ef8083735"
+      Hint: Release Data
+      Value: 20181007T220000Z
+    - ID: "a8c22b9a-6742-417d-87d5-4a09885f68da"
+      Hint: Price
+      Value: 200

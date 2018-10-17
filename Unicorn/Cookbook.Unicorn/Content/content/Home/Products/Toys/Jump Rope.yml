@@ -1,0 +1,46 @@
+﻿---
+ID: "e4ed12c9-f0de-435c-a05c-1dd0a31ea25d"
+Parent: "6218f767-d05c-493f-b02f-c8158675932e"
+Template: "2a4431b5-16df-4510-ad65-8949d7e01c60"
+Path: /sitecore/content/Home/Products/Toys/Jump Rope
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T085443Z
+    - ID: "6f598fa2-2620-4634-8593-bd3b2da01596"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A9F0C82-737C-4514-BBAD-21DB84340260}" ></image>
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: Jump Rope
+    - ID: "fddbad72-be6a-4d7c-ba15-788d9e4438d5"
+      Hint: Body
+      Value: A rope for jumping
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T121400Z
+    - ID: "33700c77-3cd4-40d2-8fb1-70d051705f88"
+      Hint: Show in Menu
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6f598fa2-2620-4634-8593-bd3b2da01596"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A9F0C82-737C-4514-BBAD-21DB84340260}" />
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: Jump rope ES

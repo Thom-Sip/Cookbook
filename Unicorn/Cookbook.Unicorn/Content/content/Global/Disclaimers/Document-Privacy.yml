@@ -1,0 +1,25 @@
+﻿---
+ID: "fc193d1a-dec9-420a-8678-01276c3f9c9f"
+Parent: "bfd1dcf2-7e9b-4f7b-84cd-356d93c56d11"
+Template: "4eae0a86-5244-48a4-861e-8f94b8558fb2"
+Path: "/sitecore/content/Global/Disclaimers/Document-Privacy"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181009T110518Z
+    - ID: "334f8a91-3f1b-46a0-b392-763af01f1d68"
+      Hint: Disclaimer Page
+      Value: "{D5C8DDB9-8828-4E42-9839-C43B70A0394C}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "78e157a1-4a4c-4ea1-90ae-4ce39900e4e0"
+      Hint: Media to Protect
+      Type: tree list
+      Value: "{D6D8F0CB-C02B-40EC-96BC-BE10160F7218}"

@@ -1,0 +1,34 @@
+﻿---
+ID: "b97b2328-af37-41d1-b7e6-dbab45c60533"
+Parent: "317ca909-db72-4335-a6f7-77d3940ec071"
+Template: "b960cbe4-381f-4a2b-9f44-a43c7a991a0b"
+Path: /sitecore/content/Home/RSS/Product RSS Feed
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "16cc56dd-27f5-4839-b790-dbbd9aca882c"
+      Hint: Title
+      Value: Product RSS Feed
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T125218Z
+    - ID: "72c481b9-f789-4457-838f-2329eb8469c2"
+      Hint: Source
+      Value: /sitecore/content/Home/Products/Balls
+    - ID: "770878c5-ee73-4967-aff5-d0f402523fdf"
+      Hint: Description
+      Value: All of our balls
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T125206Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

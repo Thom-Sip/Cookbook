@@ -1,0 +1,23 @@
+﻿---
+ID: "3c155166-ecb6-4cf5-a713-e807fdd24289"
+Parent: "75998554-b9f8-46e2-a96e-21190d6417b1"
+Template: "9b9a349f-26f6-485e-bdab-268436737a32"
+Path: /sitecore/content/Home/Products/Books/Bible
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181010T082026Z
+    - ID: "544de24a-a455-4824-badf-d51df9e637be"
+      Hint: Title
+      Value: Bible
+    - ID: "5adeaa2b-ac66-48b0-9e25-cc18db0cdeb9"
+      Hint: Author
+      Value: Jezus
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: Bible

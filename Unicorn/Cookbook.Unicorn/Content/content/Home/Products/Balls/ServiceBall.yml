@@ -1,0 +1,47 @@
+﻿---
+ID: "dd86d2cc-5741-4450-ba8e-4973d8e5bf7d"
+Parent: "85cc7a52-9671-460f-a263-419396fb668f"
+Template: "2a4431b5-16df-4510-ad65-8949d7e01c60"
+Path: /sitecore/content/Home/Products/Balls/ServiceBall
+DB: master
+SharedFields:
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Type: checkbox
+  Value: 1
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{7FBB2059-0EC2-4A52-8789-D28D3964FE84}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181009T142548Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{2B318FEC-8FD0-4E22-8DF9-908A79814420}"
+    - ID: "4d16314b-627c-4f04-a8a6-8ff71ce961d4"
+      Hint: Title
+      Value: ServiceBall
+    - ID: "6f598fa2-2620-4634-8593-bd3b2da01596"
+      Hint: Image
+      Value: |
+        <image mediaid="{CBEEE199-C567-442C-85A6-D8ED66B8AF7E}" />
+    - ID: "8c7e21c1-58a7-419f-a85d-99ef12da8c12"
+      Hint: Company
+      Value: Comp
+    - ID: "98017658-8432-4382-b073-119ef8083735"
+      Hint: Release Data
+      Value: 20181009T220000Z
+    - ID: "a8c22b9a-6742-417d-87d5-4a09885f68da"
+      Hint: Price
+      Value: 1.01
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: ServiceBall

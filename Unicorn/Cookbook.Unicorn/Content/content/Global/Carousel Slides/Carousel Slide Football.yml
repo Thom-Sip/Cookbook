@@ -1,0 +1,49 @@
+﻿---
+ID: "d6fcd2ec-d27e-4e9e-ab9a-cfb043c06a29"
+Parent: "2ec4c103-9dca-4e7c-835e-81d23df1ba85"
+Template: "2870cffa-11cb-49d1-9ec9-7fc9f2aca980"
+Path: /sitecore/content/Global/Carousel Slides/Carousel Slide Football
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "028c8686-f82b-4a5f-820a-fdee37dec23b"
+      Hint: Image
+      Value: |
+        <image mediaid="{CBEEE199-C567-442C-85A6-D8ED66B8AF7E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181004T140531Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ccd5cba6-be20-417a-8f3e-911a6e9c6dcf"
+      Hint: Link Item
+      Value: "{21E4B715-08C9-4079-8D02-FE991B710F66}"
+    - ID: "e5a5af11-3dd4-4c7e-857e-32d51f4074a4"
+      Hint: Title
+      Value: Football
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "028c8686-f82b-4a5f-820a-fdee37dec23b"
+      Hint: Image
+      Value: |
+        <image mediaid="{CBEEE199-C567-442C-85A6-D8ED66B8AF7E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T122111Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ccd5cba6-be20-417a-8f3e-911a6e9c6dcf"
+      Hint: Link Item
+      Value: "{21E4B715-08C9-4079-8D02-FE991B710F66}"
+    - ID: "e5a5af11-3dd4-4c7e-857e-32d51f4074a4"
+      Hint: Title
+      Value: ES Football

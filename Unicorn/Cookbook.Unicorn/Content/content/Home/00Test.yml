@@ -1,0 +1,17 @@
+﻿---
+ID: "14391ad9-f917-45b9-9e53-56d4f5df00a7"
+Parent: "45b5941a-a719-4bad-87f6-8d75af1cc6f8"
+Template: "2a4431b5-16df-4510-ad65-8949d7e01c60"
+Path: /sitecore/content/Home/00Test
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181010T074008Z
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: 00Test

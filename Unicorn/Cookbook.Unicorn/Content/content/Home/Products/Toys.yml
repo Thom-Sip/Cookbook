@@ -1,0 +1,20 @@
+﻿---
+ID: "6218f767-d05c-493f-b02f-c8158675932e"
+Parent: "8d678e1e-6463-41a6-a749-658bacd0c58e"
+Template: "37afda01-39de-4bea-9d33-50fdd115ed6a"
+Path: /sitecore/content/Home/Products/Toys
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T085400Z
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: Toys
+    - ID: "fddbad72-be6a-4d7c-ba15-788d9e4438d5"
+      Hint: Body
+      Value: &nbsp;

@@ -1,0 +1,49 @@
+﻿---
+ID: "033d14c2-b897-46fe-9b15-64e2ebc34035"
+Parent: "2ec4c103-9dca-4e7c-835e-81d23df1ba85"
+Template: "2870cffa-11cb-49d1-9ec9-7fc9f2aca980"
+Path: /sitecore/content/Global/Carousel Slides/Carousel Slide GolfBall
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "028c8686-f82b-4a5f-820a-fdee37dec23b"
+      Hint: Image
+      Value: |
+        <image mediaid="{EE486513-34B7-4288-9E80-5083ED9684AB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181004T140501Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ccd5cba6-be20-417a-8f3e-911a6e9c6dcf"
+      Hint: Link Item
+      Value: "{B7451BEF-EF2A-4220-8D9C-1A86FAC832D8}"
+    - ID: "e5a5af11-3dd4-4c7e-857e-32d51f4074a4"
+      Hint: Title
+      Value: Golfball
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "028c8686-f82b-4a5f-820a-fdee37dec23b"
+      Hint: Image
+      Value: |
+        <image mediaid="{EE486513-34B7-4288-9E80-5083ED9684AB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T122128Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ccd5cba6-be20-417a-8f3e-911a6e9c6dcf"
+      Hint: Link Item
+      Value: "{1FA04C7E-860E-4A29-BAC2-54D173AF2216}"
+    - ID: "e5a5af11-3dd4-4c7e-857e-32d51f4074a4"
+      Hint: Title
+      Value: ES Golfball

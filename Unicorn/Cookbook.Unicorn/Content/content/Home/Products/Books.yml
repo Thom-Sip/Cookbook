@@ -1,0 +1,17 @@
+﻿---
+ID: "75998554-b9f8-46e2-a96e-21190d6417b1"
+Parent: "8d678e1e-6463-41a6-a749-658bacd0c58e"
+Template: "37afda01-39de-4bea-9d33-50fdd115ed6a"
+Path: /sitecore/content/Home/Products/Books
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181010T081542Z
+    - ID: "c32abd0d-3cfc-460e-b011-d10416d0b994"
+      Hint: Title
+      Value: Books
