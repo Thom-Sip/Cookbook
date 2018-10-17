@@ -197,7 +197,9 @@
     <Content Include="App_Config\Sitecore.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.CustomPageNotFound.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.AutoPublishEventHandlers.config" />
-    <Content Include="App_Config\Include\Cookbook\Cookbook.Hooks.config" />
+    <Content Include="App_Config\Include\Cookbook\Cookbook.Hooks.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Config\Include\Cookbook\Cookbook.Schedulers.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.RTEToken.config" />
     <Content Include="App_Config\Include\Cookbook\Cookbook.RTETokenButton.config" />
@@ -221,7 +223,7 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
-    <None Include="App_Config\Include\Cookbook\Unicorn.Configs.Cookbook.Config" />
+    <Content Include="App_Config\Include\Cookbook\Unicorn.Configs.Cookbook.config" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <Content Include="Views\main.cshtml" />
